@@ -101,7 +101,11 @@ async function loadAvailableTasks() {
   var tableWrapper = document.querySelector('.tasks-table-wrapper');
 
   try {
-    var response = await fetch(SUPABASE_URL + '/functions/v1/available-tasks');
+    var response = await fetch(SUPABASE_URL + '/functions/v1/available-tasks', {
+      headers: {
+        'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt3d2ZwdnZqbGR3bXdlc2hydnRuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk5MTY0NjgsImV4cCI6MjA4NTQ5MjQ2OH0.W-qoz7KGCax1WSnpaI8BzHTN9Hha6d4nEnf9fdvZ0eQ'
+      }
+    });
     if (!response.ok) throw new Error('Failed to fetch');
 
     var result = await response.json();
