@@ -201,7 +201,6 @@ body {
     height: 560px;
     background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
     border-radius: 40px;
-    padding: 16px;
     box-shadow: var(--shadow-lg);
     position: relative;
 }
