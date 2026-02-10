@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electri - Premium Electrician Jobs in Australia</title>
+    <meta name="description" content="Join Australia's premier platform for qualified electricians. Access high-paying installation jobs with competitive rates and steady work.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="18" fill="#0066cc" stroke="#0066cc" stroke-width="4"/>
+                    <path d="M20 8L24 16H16L20 8Z" fill="white"/>
+                    <path d="M20 32L16 24H24L20 32Z" fill="white"/>
+                    <rect x="18" y="16" width="4" height="8" fill="white"/>
+                </svg>
+                <span class="logo-text">Electri</span>
+            </div>
+            <nav class="nav">
+                <button class="btn-secondary" onclick="scrollToSection('how-it-works')">How It Works</button>
+                <button class="btn-secondary" onclick="scrollToSection('available-tasks')">Available Jobs</button>
+                <button class="btn-primary" onclick="scrollToSection('download')">Get Started</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Installation Jobs for Certified Electricians</h1>
+                <p class="hero-subtitle">Join Australia's fastest-growing network of qualified electricians. Access high-paying energy storage installation jobs with rates that respect your expertise.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">$120+</div>
+                        <div class="stat-label">Per Hour Rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">50+</div>
+                        <div class="stat-label">Jobs Weekly</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">4.8★</div>
+                        <div class="stat-label">Average Rating</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn-large" onclick="scrollToSection('download')">Download the App</button>
+                    <button class="btn-outline-large" onclick="openContactModal()">Contact Us</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Electricians Choose Electri</h2>
+            <p class="section-subtitle">Premium rates, steady work, and professional support</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Above-Market Rates</h3>
+                    <p>Earn significantly more than the industry average. Our installation jobs pay $120-$180 per hour, recognizing the specialized skills required for energy storage systems.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3>Consistent Work</h3>
+                    <p>Access 50+ new installation jobs every week across Australia. Never worry about finding your next job. We provide steady, reliable work year-round.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3>Local Jobs Only</h3>
+                    <p>Select your service areas and receive jobs in your region. No more driving across the state. Work close to home and maximize your earnings.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Vetted & Professional</h3>
+                    <p>All jobs are pre-screened and customers are verified. Work with confidence knowing every installation has been properly assessed and approved.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20"></path>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Quick Payment</h3>
+                    <p>Get paid promptly upon job completion. No chasing invoices or waiting months for payment. Your time is valuable, and we respect that.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Dedicated Support</h3>
+                    <p>Our Australian-based support team is here to help. From technical questions to job assistance, we've got your back every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Getting Started Is Simple</h2>
+            <p class="section-subtitle">Four easy steps to your first premium installation job</p>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Download & Register</h3>
+                    <p>Download the Electri app and create your account. Provide your license details and service areas.</p>
+                </div>
+                <div class="step-connector"></div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Get Certified</h3>
+                    <p>Our team reviews your credentials (usually within 24 hours). We verify all electricians to maintain quality standards.</p>
+                </div>
+                <div class="step-connector"></div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Browse Jobs</h3>
+                    <p>View available energy storage installation jobs in your area. See job details, location, and payment upfront.</p>
+                </div>
+                <div class="step-connector"></div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Start Earning</h3>
+                    <p>Apply for jobs that suit your schedule. Once assigned, complete the installation and get paid promptly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Tasks -->
+    <section id="available-tasks" class="available-tasks">
+        <div class="container">
+            <h2 class="section-title">Available Jobs Right Now</h2>
+            <p class="section-subtitle">Browse current installation opportunities across Australia</p>
+
+            <div class="tasks-table-wrapper">
+                <table class="tasks-table" id="tasksTable">
+                    <thead>
+                        <tr>
+                            <th>Installation Type</th>
+                            <th>Location</th>
+                            <th>Est. Hours</th>
+                            <th>Fee</th>
+                            <th>Posted</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasksTableBody">
+                        <tr class="tasks-loading-row">
+                            <td colspan="6">
+                                <div class="tasks-loading">Loading available jobs...</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="tasksEmpty" class="tasks-empty" style="display: none;">
+                <p>No jobs available right now. Check back soon or download the app to get notified when new jobs are posted.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Trusted by Electricians Across Australia</h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally, a platform that values professional electricians. The rates are excellent, and I'm never short of work. Best decision I made this year."</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>Licensed Electrician, Sydney NSW</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The jobs are well-organized, customers are professional, and payment is always on time. Electri makes my work life so much easier."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Williams</strong>
+                        <span>Licensed Electrician, Melbourne VIC</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"I've doubled my income since joining Electri. The steady stream of high-quality jobs means I can plan my finances confidently."</p>
+                    <div class="testimonial-author">
+                        <strong>James Patterson</strong>
+                        <span>Licensed Electrician, Brisbane QLD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="download" class="cta-section">
+        <div class="container">
+            <h2 class="section-title-white">Ready to Elevate Your Career?</h2>
+            <p class="section-subtitle-white">Join hundreds of electricians earning premium rates across Australia</p>
+
+            <div class="download-buttons">
+                <a href="#" class="download-btn apple">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div>
+                        <div class="download-label">Download on the</div>
+                        <div class="download-store">App Store</div>
+                    </div>
+                </a>
+                <a href="#" class="download-btn google">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm10.84-7.45L5.24 3.21c.16-.08.34-.12.53-.12.38 0 .73.15 1 .42l9.58 9.58-2.51 2.26zM14.07 12.5l2.51-2.27L21.5 4.5l.7.77v13.46l-.7.77-4.92-5.73-2.51-2.27z"/>
+                    </svg>
+                    <div>
+                        <div class="download-label">Get it on</div>
+                        <div class="download-store">Google Play</div>
+                    </div>
+                </a>
+            </div>
+
+            <p class="cta-footnote">Available for iOS and Android. Download today and get certified to start accepting jobs.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" fill="#0066cc" stroke="#0066cc" stroke-width="4"/>
+                            <path d="M20 8L24 16H16L20 8Z" fill="white"/>
+                            <path d="M20 32L16 24H24L20 32Z" fill="white"/>
+                            <rect x="18" y="16" width="4" height="8" fill="white"/>
+                        </svg>
+                        <span class="logo-text">Electri</span>
+                    </div>
+                    <p class="footer-description">Australia's premier platform connecting qualified electricians with premium energy storage installation jobs.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#" onclick="openContactModal(); return false;">About Us</a>
+                        <a href="#" onclick="openContactModal(); return false;">Contact</a>
+                        <a href="#" onclick="openContactModal(); return false;">Support</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#" onclick="openContactModal(); return false;">Privacy Policy</a>
+                        <a href="#" onclick="openContactModal(); return false;">Terms of Service</a>
+                        <a href="#" onclick="openContactModal(); return false;">Licensing</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Electri. All rights reserved. ABN: XX XXX XXX XXX</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeContactModal()">&times;</button>
+            <h2>Contact Electri</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <div>
+                        <strong>Head Office</strong>
+                        <p>Level 5, 123 Business Street<br>Sydney NSW 2000, Australia</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>1300 SPARK PRO<br>(1300 772 757)</p>
+                        <p class="text-small">Monday - Friday, 8am - 6pm AEST</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <div>
+                        <strong>Email</strong>
+                        <p><a href="mailto:support@electri.com.au">support@electri.com.au</a></p>
+                        <p><a href="mailto:jobs@electri.com.au">jobs@electri.com.au</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <div>
+                        <strong>Business Hours</strong>
+                        <p>Monday - Friday: 8:00am - 6:00pm<br>Saturday: 9:00am - 4:00pm<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-cta">
+                <p><strong>Ready to get started?</strong></p>
+                <button class="btn-large" onclick="scrollToSection('download'); closeContactModal();">Download the App Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
